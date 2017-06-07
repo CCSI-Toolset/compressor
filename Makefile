@@ -1,5 +1,5 @@
 # A simple makefile for creating the Centrifugal Compressor simulation distribution
-VERSION    := 2014.06.00
+VERSION    := `git describe --tags`
 PRODUCT    := Centrifugal Commpressor Simulation
 PROD_SNAME := Compressor
 LICENSE    := CCSI_TE_LICENSE_$(PROD_SNAME).txt
